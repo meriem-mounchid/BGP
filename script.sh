@@ -1,5 +1,4 @@
 #### BGP ####
-#sudo usermod -aG sudo vagrant
 sudo add-apt-repository ppa:gns3/ppa
 sudo apt update                                
 sudo apt install gns3-gui gns3-server
@@ -22,7 +21,23 @@ sudo usermod -aG libvirt misaki
 sudo usermod -aG wireshark misaki
 sudo usermod -aG kvm misaki
 #newgrp docker
+#sudo chmod 666 /var/run/docker.sock
 #### Uninstall GNS3 ####
 gns3
 docker pull alpine
+docker run -d alpine 
+docker ps -a
+docker stop NAME
+docker commit NAME nNAME
+#ipk add iproute2
+#tc
+docker pull frrouting/frr
+docker run -d frrouting/frr
+docker stop NAME
+docker commit NAME nNAME
 
+vi /etc/frr/daemons
+BGPD: Border Gateway Protocol daemon 
+OSPFD: Open Shortest Path First daemo
+IS-IS: Intermediate System to Intermediate System daemon
+Busybox:
