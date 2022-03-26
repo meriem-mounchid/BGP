@@ -1,5 +1,5 @@
 #### BGP ####
 
-BGP: Border Gateway Protocol daemon 
-OSPF: Open Shortest Path First daemo
-IS-IS: Intermediate System to Intermediate System daemon
+BGPD: Border Gateway Protocol Daemon 
+OSPFD: Open Shortest Path First Daemon
+IS-ISD: Intermediate System to Intermediate System Daemon
