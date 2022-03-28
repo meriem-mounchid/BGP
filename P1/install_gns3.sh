@@ -23,6 +23,7 @@ sudo usermod -aG libvirt misaki
 sudo usermod -aG wireshark misaki
 sudo usermod -aG kvm misaki
 sudo chmod +x /usr/bin/ubridge
+sudo chmod +x /usr/bin/dumpcap
 # chmod 777 scripts.sh
 # sudo apt install -y openssh-server
 # scp scripts.sh misaki@10.12.100.28:~
