@@ -23,6 +23,7 @@ sudo usermod -aG libvirt bgp
 sudo usermod -aG wireshark bgp
 sudo usermod -aG kvm bgp
 sudo chmod +x /usr/bin/ubridge
+newgrp docker 
 sudo chmod +x /usr/bin/dumpcap
 # chmod 777 scripts.sh
 # sudo apt install -y openssh-server

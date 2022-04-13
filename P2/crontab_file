@@ -1,0 +1,6 @@
+* * * * * sh /home/bgp/P2/part2_static/script1.sh
+* * * * * sh /home/bgp/P2/part2_static/script2.sh
+* * * * * sh /home/bgp/P2/script3.sh
+* * * * * sh /home/bgp/P2/script4.sh
+* * * * * sh /home/bgp/P2/part2_group/script1.sh
+* * * * * sh /home/bgp/P2/part2_group/script2.sh

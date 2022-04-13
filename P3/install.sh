@@ -1,3 +1,5 @@
+
+   
 #### BGP ####
 sudo add-apt-repository ppa:gns3/ppa -y
 sudo apt update                                
@@ -16,14 +18,12 @@ sudo add-apt-repository \
    $(lsb_release -cs) stable"
 sudo apt update
 sudo apt install -y docker-ce
-sudo usermod -aG sudo bgp
-sudo usermod -aG docker bgp
-sudo usermod -aG ubridge bgp
-sudo usermod -aG libvirt bgp
-sudo usermod -aG wireshark bgp
-sudo usermod -aG kvm bgp
+sudo usermod -aG sudo ramoukha
+sudo usermod -aG docker ramoukha
+sudo usermod -aG ubridge ramoukha
+sudo usermod -aG libvirt ramoukha
+sudo usermod -aG wireshark ramoukha
+sudo usermod -aG kvm ramoukha
 sudo chmod +x /usr/bin/ubridge
+newgrp docker 
 sudo chmod +x /usr/bin/dumpcap
-# chmod 777 scripts.sh
-# sudo apt install -y openssh-server
-# scp scripts.sh misaki@10.12.100.28:~

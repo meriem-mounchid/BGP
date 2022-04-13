@@ -1,0 +1,12 @@
+Apr 12 00:26:09.218 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Apr 12 00:26:09.218 HYPERVISOR: Started on IP = localhost, TCP port = 51403.
+Apr 12 00:26:09.232 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 12 00:26:09.233 HYPERVISOR: exec_cmd: hypervisor working_dir /home/bgp/Desktop/part2_group/project-files/dynamips 
+Apr 12 00:26:09.233 GENERAL: working_dir=/home/bgp/Desktop/part2_group/project-files/dynamips
+Apr 12 00:26:09.233 HYPERVISOR: exec_cmd: ethsw create Switch1_cel-oiri 
+Apr 12 00:26:09.766 HYPERVISOR: exec_cmd: nio create_udp udp-d5068c7d-e60e-4318-a51b-6a8c230d9ec7 10009 127.0.0.1 10008 
+Apr 12 00:26:09.766 HYPERVISOR: exec_cmd: ethsw add_nio Switch1_cel-oiri udp-d5068c7d-e60e-4318-a51b-6a8c230d9ec7 
+Apr 12 00:26:09.768 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1_cel-oiri udp-d5068c7d-e60e-4318-a51b-6a8c230d9ec7 1 
+Apr 12 00:26:09.802 HYPERVISOR: exec_cmd: nio create_udp udp-93a1246e-a297-4331-8888-b77a85ad16d5 10011 127.0.0.1 10010 
+Apr 12 00:26:09.802 HYPERVISOR: exec_cmd: ethsw add_nio Switch1_cel-oiri udp-93a1246e-a297-4331-8888-b77a85ad16d5 
+Apr 12 00:26:09.810 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1_cel-oiri udp-93a1246e-a297-4331-8888-b77a85ad16d5 1 
